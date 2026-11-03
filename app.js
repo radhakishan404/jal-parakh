@@ -570,7 +570,7 @@
   }
 
   /* ---------- QR stickers ---------- */
-  function baseUrl() { return load('jp-base') || location.href.split('#')[0]; }
+  function baseUrl() { return load('jp-base') || CONFIG.siteUrl || location.href.split('#')[0].split('?')[0]; }
   const pumpUrl = (pump) => baseUrl() + '#/pump/' + encodeURIComponent(pump.id);
 
   function stickerHtml(pump) {

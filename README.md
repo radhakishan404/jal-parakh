@@ -53,7 +53,7 @@ In `data.js`, copy one entry in `PUMPS`. Give it a unique `id` and put the **new
 - **GitHub Pages:** push this folder to a repository, then go to Settings → Pages → Deploy from branch.
 - **Netlify:** drag this folder onto app.netlify.com/drop.
 
-Then open the **QR stickers** page, paste the public address into the box, and print. The QR codes encode that address plus `#/pump/<ID>`.
+The live site is **https://radhakishan404.is-a.dev/jal-parakh/**. QR codes encode `CONFIG.siteUrl` in `data.js` plus `#/pump/<ID>`. If the site moves, update `siteUrl` (or paste the new address on the QR stickers page) before printing.
 
 ## Grading logic
 

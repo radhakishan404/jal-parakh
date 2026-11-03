@@ -14,6 +14,8 @@ const CONFIG = {
   demoData: true,
   // A lat/long search warns if the nearest tested pump is farther than this.
   nearbyKm: 2,
+  // Public address the QR stickers open. Change this if the site moves.
+  siteUrl: 'https://radhakishan404.is-a.dev/jal-parakh/',
 };
 
 const INSTRUMENTS = {
